@@ -1,5 +1,5 @@
 #include <iostream>
-#include <vector>
+#include <vector> //Vector
 #include <windows.h> // For windows
 using namespace std;
 
@@ -7,7 +7,7 @@ const int grid_size = 10;
 const int total_states = 100;
 
 int get_state(int x, int y) {
-    return x * grid_size + y;
+    return x * grid_size + y; // Matris
 }
 
 vector<vector<int>> generate_graph() {
@@ -60,3 +60,4 @@ int main() {
     dfs(graph);
     return 0;
 }
+
