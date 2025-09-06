@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #include <iostream>
 #include <vector>
 #include <windows.h> // For windows
@@ -125,4 +124,3 @@ int main() {
     return 0;
 }
 
->>>>>>> 56d9ef10dfac201e539345192ab034906a80f88a
