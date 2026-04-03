@@ -89,5 +89,5 @@ while state != grid_size * grid_size - 1:
     path.append(state)
 
 render_grid(state)  # Show final state
-print("Learned path:")
+print("Learned path:") # Learned path
 print(path)
